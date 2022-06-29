@@ -1,26 +1,61 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="root">
+    <keep-alive>
+      <router-view class="feature-content"></router-view>
+    </keep-alive>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {ESLog} from "@extscreen/es-log";
+import {
+  ESNetworkMixin,
+  ESUsbDeviceMixin,
+  getESApp,
+} from '@extscreen/es-core';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  mixins: [
+    ESNetworkMixin,
+    ESUsbDeviceMixin,
+  ],
+  data() {
+    return {};
+  },
+  mounted() {
+    this.initLog()
+    this.app = getESApp();
+    this.init();
+  },
+  methods: {
+    init() {
+      let params = this.app.$options.$superProps
+      this.initPageName = params.url;
+      this.initPage()
+    },
+    initLog() {
+      ESLog.setMinimumLoggingLevel(ESLog.VERBOSE);
+    },
+    initPage() {
+      if (!this.initPageName) {
+        this.initPageName = `index`;
+      }
+      this.$router.push(this.initPageName);
+    },
+  },
+  components: {}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+#root {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 </style>

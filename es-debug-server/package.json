@@ -1,0 +1,29 @@
+{
+  "name": "@hippy4tv/debug-server",
+  "description": "Hippy Vue for TV",
+  "author": "zhaopeng <zhaopeng1@huan.tv>",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "homepage": "http://hippy4tv.org",
+  "bin": {
+    "hippy-debug": "index.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "hippy",
+    "debug",
+    "debugger"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "find-up": "^4.1.0",
+    "koa": "^2.3.0",
+    "mime": "^2.5.2",
+    "signale": "^1.4.0",
+    "ws": "^7.4.6",
+    "yargs": "^15.0.2"
+  }
+}
