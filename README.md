@@ -63,10 +63,64 @@ npm run esbuild
 
 > 找到根目录下 /dist/android 文件夹，打包成.zip文件, 并进入开发者平台上传代码包
 
-##    
+##     
 
 ## [开发者平台](http://mp.es.hiliad.com/)
 
 成为开发者详情请参考 [[开发者说明]](http://developer.es.hiliad.com/developer/apply/)
 
 [扩展屏文档中心](http://developer.es.hiliad.com/)
+
+## extscreen相关Vue库
+
+```
+"@extscreen/es-log": "^1.0.1",
+"@extscreen/es-core": "^1.0.12",
+"@extscreen/es-x5web-view-component": "^1.0.2",
+"@extscreen/es-x5web-view": "^1.0.1",
+"@extscreen/es-web-view-component": "^1.0.2",
+"@extscreen/es-web-view": "^1.0.1",
+"@extscreen/es-voice-wave-view-component": "^1.0.3",
+"@extscreen/es-swiper-slide-view-component": "^1.0.1",
+"@extscreen/es-swift-list-view-component": "^1.0.0",
+"@extscreen/es-large-list-view-component": "^1.0.0",
+"@extscreen/es-ripple-view-component": "^1.0.1",
+"@extscreen/es-play-mark-view-component": "^1.0.3",
+"@extscreen/es-nano-usb": "^1.0.0",
+"@extscreen/es-leancloud-module": "^1.0.0",
+"@extscreen/es-eventbus": "^1.0.0",
+"@extscreen/es-gif-view-component": "^1.0.1",
+"@extscreen/es-list-view-component": "^1.0.0",
+"@extscreen/es-ad-player-view-component": "^1.0.1",
+"@extscreen/es-ad-player": "^1.0.4",
+"@extscreen/es-ijk-player-view-component": "^1.0.0",
+"@extscreen/es-ijk-player": "^1.0.5",
+"@extscreen/es-tvbc-player-view-component": "^1.0.0",
+"@extscreen/es-tvbc-player": "^1.0.4",
+"@extscreen/es-m1905-player-view-component": "^1.0.0",
+"@extscreen/es-m1905-player": "^1.0.4",
+"@extscreen/es-sohu-player-view-component": "^1.0.1",
+"@extscreen/es-sohu-player": "^1.0.4",
+"@extscreen/es-player": "^1.0.15",
+"@extscreen/es-player-manager": "^1.0.11",
+"@extscreen/es-empty-player": "^1.0.0",
+"@extscreen/es-ad-front-player-manager": "^1.0.2",
+"@extscreen/es-ad-paused-player-manager": "^1.0.0",
+"@extscreen/es-plugin-module": "^1.0.0",
+"@extscreen/es-sample": "^1.0.0",
+"@extscreen/es-ijk-audio-player-module": "^1.0.0",
+"@extscreen/es-ijk-audio-player": "^1.0.0",
+"@extscreen/es-soundpool-audio-player-module": "^1.0.1",
+"@extscreen/es-async-player-module": "^1.0.0",
+"@extscreen/es-soundpool-audio-player": "^1.0.0",
+"@extscreen/es-android-audio-player-module": "^1.0.0",
+"@extscreen/es-android-audio-player": "^1.0.1",
+"@extscreen/es-downloader-module": "^1.0.1",
+"@extscreen/es-chart-view-component": "^1.0.2",
+"@extscreen/es-link": "^1.0.7",
+"@extscreen/es-link-ms-baidu": "^1.0.2",
+"@extscreen/es-app-icon-view-component": "^1.0.0",
+"@extscreen/es-upload-module": "^1.0.0",
+"@extscreen/es-audio-record-module": "^1.0.1",
+"@extscreen/es-runtime-device-module": "^1.0.0"
+```
