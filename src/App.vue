@@ -9,19 +9,21 @@
 <script>
 import {ESLog} from "@extscreen/es-log";
 import {
-  ESNetworkMixin,
-  ESUsbDeviceMixin,
-  getESApp,
+  ESDevelopManager,
+  ESDeviceManager,
+  ESNetworkManager,
+  getESApp
 } from '@extscreen/es-core';
+import BuildConfig from "@/build/BuildConfig";
+import {RuntimeDeviceManager} from "@extscreen/es-runtime";
+import RequestManager from "@/request/RequestManager";
 
 export default {
   name: 'App',
-  mixins: [
-    ESNetworkMixin,
-    ESUsbDeviceMixin,
-  ],
   data() {
-    return {};
+    return {
+      pageParams: {},
+    };
   },
   mounted() {
     this.initLog()
@@ -30,14 +32,34 @@ export default {
   },
   methods: {
     init() {
-      let params = this.app.$options.$superProps
-      this.initPageName = params.url;
-      this.initPage()
+      this.pageParams = this.app.$options.$superProps
+      Promise.resolve()
+        .then(() => Promise.all([
+          RuntimeDeviceManager.init(),
+          ESDevelopManager.init(),
+          ESDeviceManager.init(),
+          ESNetworkManager.init(),
+        ]))
+        .then(() => RequestManager.init())
+        .then(
+          //
+          (result) => {
+            this.initPage()
+          },
+          //
+          error => {
+            this.initPage()
+          });
     },
     initLog() {
-      ESLog.setMinimumLoggingLevel(ESLog.VERBOSE);
+      if (BuildConfig.DEBUG) {
+        ESLog.setMinimumLoggingLevel(ESLog.VERBOSE);
+      } else {
+        ESLog.setMinimumLoggingLevel(ESLog.ERROR);
+      }
     },
     initPage() {
+      this.initPageName = this.pageParams.url;
       if (!this.initPageName) {
         this.initPageName = `index`;
       }
