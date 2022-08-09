@@ -6,7 +6,6 @@ class WebpackLifeWatchPlugin{
     }
     apply(compiler){
         compiler.hooks.done.tap("WebpackLifeWatchPlugin",compiler => {
-            exec('sleep', ['0.5'])
             exec('adb', ['shell', 'am', 'broadcast', '-a', 'eskit.sdk.action.CODE_CHANGED', '-f', '32'])
         });
     }
