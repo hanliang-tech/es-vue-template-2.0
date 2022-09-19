@@ -1,39 +1,39 @@
 <template>
   <div id="root">
-    <keep-alive>
-      <router-view class="feature-content"></router-view>
-    </keep-alive>
+    <router-view/>
   </div>
 </template>
 
 <script>
 import {ESLog} from "@extscreen/es-log";
 import {
+  ESApplication,
   ESDevelopManager,
   ESDeviceManager,
   ESNetworkManager,
-  getESApp
 } from '@extscreen/es-core';
 import BuildConfig from "@/build/BuildConfig";
 import {RuntimeDeviceManager} from "@extscreen/es-runtime";
 import RequestManager from "@/request/RequestManager";
 
 export default {
-  name: 'App',
+  name: 'ESApp',
+  /**
+   * 集成ESApplication
+   */
+  mixins: [ESApplication],
   data() {
     return {
       pageParams: {},
     };
   },
-  mounted() {
-    this.initLog()
-    this.app = getESApp();
-    this.init();
-  },
   methods: {
-    init() {
-      this.pageParams = this.app.$options.$superProps
-      Promise.resolve()
+    /**
+     * ESApplication 生命周期: onESCreate();
+     */
+    onESCreate(props) {
+      this.initLog();
+      return Promise.resolve()
         .then(() => Promise.all([
           RuntimeDeviceManager.init(),
           ESDevelopManager.init(),
@@ -41,16 +41,10 @@ export default {
           ESNetworkManager.init(),
         ]))
         .then(() => RequestManager.init())
-        .then(
-          //
-          (result) => {
-            this.initPage()
-          },
-          //
-          error => {
-            this.initPage()
-          });
     },
+    /**
+     * 初始化ESLog
+     */
     initLog() {
       if (BuildConfig.DEBUG) {
         ESLog.setMinimumLoggingLevel(ESLog.VERBOSE);
@@ -58,26 +52,13 @@ export default {
         ESLog.setMinimumLoggingLevel(ESLog.ERROR);
       }
     },
-    initPage() {
-      this.initPageName = this.pageParams.url;
-      if (!this.initPageName) {
-        this.initPageName = `index`;
-      }
-      this.$router.push(this.initPageName);
-    },
   },
-  components: {}
 };
 </script>
 
 <style scoped>
 #root {
-  flex: 1;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 1920px;
+  height: 1080px;
 }
 </style>

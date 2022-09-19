@@ -952,135 +952,30 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@extscreen/es-ad-front-player-manager@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ad-front-player-manager/-/es-ad-front-player-manager-1.0.2.tgz#487390451163263106ebbe8a2f55ef71a979f71f"
-  integrity sha512-YJ2LQVY6ORqNY45HCUnefTL9iJhFZKrHd18tUNQvG6KqiNxKN4qqDvFFKsLt8v4a5Kf2gu6dI7CurtGIgAqw/A==
-
-"@extscreen/es-ad-paused-player-manager@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ad-paused-player-manager/-/es-ad-paused-player-manager-1.0.0.tgz#a7c2ee1386945b8c090df4ebaae171897643b6a3"
-  integrity sha512-r98AarCSJa4g0nZ+7I/NIDXYEx2xG3oSCCFROVweFbtPkkMTG462dK7ljsUzh9bsyIAIvyZMGPGZ6HcXpfn8bQ==
-
-"@extscreen/es-ad-player-view-component@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ad-player-view-component/-/es-ad-player-view-component-1.0.4.tgz#2766027e2038267baa4b4c1a8f89616250e82bc6"
-  integrity sha512-pzjWdCMMVQ0WGzSiPj2DZ2LgdJRDZFFdyPRq7HuR4etcURuGpFtmFmPFxIILmHzWuBGDAFIyoScF1PCksOb+4A==
-
-"@extscreen/es-ad-player@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ad-player/-/es-ad-player-1.0.4.tgz#8d59b96a233ae91a0ae8c6aa697acb6063d4dae1"
-  integrity sha512-44fW3UVtiP4hldb4M4ZUzDBOtTAojVS8z/ZnowiT6NqvFhYv2pR9sZELzz7bU7Cu52MmosVfrbVw9ooU0I/SVQ==
-
-"@extscreen/es-core@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.0.15.tgz#3db986a98ca489bce75366eca3064fa6f0d6b354"
-  integrity sha512-JxtJNx6k3g3DOPetimtvdXud2/Oyz1MFJaXbboTwMYH4M6eWVitKBcTIjkeUYDGOQThUHp7yPDL2BfSQNrZh3Q==
-
-"@extscreen/es-downloader-module@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-downloader-module/-/es-downloader-module-1.0.1.tgz#d7d5249ec9fee9202d84b24d143146442504b8bd"
-  integrity sha512-EenIYMgVNj/VxdMWjD6BxMe1It0TjXm06zgcqsCJHF9oGXub/u4THDk06DD77g4KbD2prjdZlcOia7LqYfb3zQ==
-
-"@extscreen/es-empty-player@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-empty-player/-/es-empty-player-1.0.0.tgz#54db5faeac472a46d9dfa88d13abc81146667fab"
-  integrity sha512-ZRih180wN4lJXz/NtQ7UZbP3GrwB1F4mwVG4wtpLlxQtKrI+CcTX6X+egQdqCwlcOV/hVRQUwMInQ9xGVxApqw==
+"@extscreen/es-core@^1.1.27":
+  version "1.1.27"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.1.27.tgz#a06d097d898a773560c2d12cc06cecfc2565e4af"
+  integrity sha512-1hsQPDNahCMu4agqIgaOcnJbQHYTaUls9mM+QNrOkOZWp4QRMQhrVS84ZGaB7P9W7mocMqck9clZMaSJYf6tWA==
 
 "@extscreen/es-eventbus@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@extscreen/es-eventbus/-/es-eventbus-1.0.0.tgz#f0a8ad11c8577f4633774d371c83fd7a4c4de5dd"
   integrity sha512-le53CXB9owGLnZjcvQUOK9vAMjQML7mjXuANXyo1y8nV0p7El7DDfkmz2kp9Lpjmhs6IvsZQ4CEFqlwd9HgYXA==
 
-"@extscreen/es-ijk-player-view-component@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ijk-player-view-component/-/es-ijk-player-view-component-1.0.4.tgz#fcd7ead1f7d5cd0eac15b0524e30ed293fb28d55"
-  integrity sha512-zSD1vumtP3PFzhccE60i4fcFlbe3nn1mUr5itaNaco2mtwg+fBRalqhLI15jiyZzczgOKLK9dfZ3arKz3Y5W7Q==
+"@extscreen/es-log@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-1.0.2.tgz#cf4d654cb26bdc0a1882de515e1b5985906c7167"
+  integrity sha512-lj1rEymcJXKO1dmzbTv3+O0W6lC1Rc8MArUKnsCc6/MEELHrhY5hTr9rZAfF9uCz8oTQXeMEyk3Cpew1+X0BTg==
 
-"@extscreen/es-ijk-player@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-ijk-player/-/es-ijk-player-1.0.6.tgz#6b5bbb71d903168577ee2b59e8482c09deda4b29"
-  integrity sha512-q/SkroM7gemKHkgMtuT1Glf0DUylffPU0UAVJg3YuFsyjyGjFkBo851P4UFJF++hR8dr8YVmxAwoOqXsghW7Nw==
-
-"@extscreen/es-log@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-1.0.1.tgz#463095a0c7d7bd83542493e0629f1167b1220eaf"
-  integrity sha512-y2TS1qPLsP71Fhynpp8LOpkhmwoXU1gf3zMakiUyJTxOqWc9rX3aJ9ijKWk+me2G/7fW9R6CTE39hX8hZ+i7gQ==
-
-"@extscreen/es-m1905-player-view-component@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-m1905-player-view-component/-/es-m1905-player-view-component-1.0.4.tgz#5ce9ea4d2c22d30cccb8efe2b379add3adc2904f"
-  integrity sha512-hwN9Aq09OnWWMiayImjD7Jzua10/Uw3Wu7ZomYnoswq8Yqcb1iTKz3S8jAcdw5/wMqTpwAmvwXNPRnixQwESag==
-
-"@extscreen/es-m1905-player@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-m1905-player/-/es-m1905-player-1.0.4.tgz#0c54efb301c71ed0cbb8fea650d94e4a0aecc78a"
-  integrity sha512-AYblXlTjSKV4e1jxwVqYnOpbmXTTuEpd0AMUB+C80NWIrRPgFasf1brWDO2o3WKwosBqMSw7ry1Y5FH+q96XJA==
-
-"@extscreen/es-player-manager@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-player-manager/-/es-player-manager-1.0.14.tgz#b234c886ad5f52079803773fd16bd28eb340e613"
-  integrity sha512-KNxralv/EKieJam/Oqzbj1D3HxV8zHlAObz4EC3bb5FHZcJoC7gakbuwlt5QxXlz/SRkgY1sogrmC2ycahLdPQ==
-
-"@extscreen/es-player@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-player/-/es-player-1.0.19.tgz#2768ce26b0049a225a4b988214ad92e0390d50cf"
-  integrity sha512-7bypDr0J4q1ECM3gS9OkJocLVeBYbuKuf3t29BnqAV3PJXndbAQLjiPrR21QMu+eKL7qedZeFJj6wh0Dgeb/zg==
-
-"@extscreen/es-plugin-module@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-plugin-module/-/es-plugin-module-1.0.0.tgz#72506f1aef7e7459accc5f90caa07e5d29305c29"
-  integrity sha512-n539He3J6I9WZ9ljhPQbbsHshjgyb8IXpGivKvO2PzYRKNskU+6GFyLQc/FhozNPx5sMTBUJNu3b9j+Bhx0wRQ==
+"@extscreen/es-router@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-1.0.5.tgz#c2660948274f65670e5af9b827151bb73b6707b7"
+  integrity sha512-jRE6oQUwGTlCI8LmA6gd2Ec5vcw5aa+uK/e1SMSQrhFX9Hv7U8vDyK07MhQx4tkD29adLjUXDVfxDRLjmAHSsA==
 
 "@extscreen/es-runtime@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@extscreen/es-runtime/-/es-runtime-1.0.0.tgz#87a04f5f7f9c20a2a469ed3c5b50691181e37d50"
   integrity sha512-zvmqER9Evt9lYOEPw2gbu4T7UcLZJKTRgCs0eU1DZd5iKPeg5ROIX6SaEE7ehquWKGGZQQmgZkyZyMhBGgVskQ==
-
-"@extscreen/es-sohu-player-view-component@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-sohu-player-view-component/-/es-sohu-player-view-component-1.0.4.tgz#87637ddd43bc44809d17e7bbb4a5f025be1a9464"
-  integrity sha512-5opaccTc6rysCq18b7pZjoSNX8xsi+YlIO76fbsAiV2Jv+mLWaSfLVNU8Y9W6vh1l+PnyZfmNZHGTIBsbkGA+Q==
-
-"@extscreen/es-sohu-player@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-sohu-player/-/es-sohu-player-1.0.4.tgz#a6f01f0bca074875bcfecf93fa470e7aebabdfa0"
-  integrity sha512-aPDIU9EQKGZxRiOB2OoIRzLPIfmTWVVWp5psvrnZlOZmRTmkd9sxw1UVBrDibhMA8Wo2QrR2ehuo1YtZVHBG6Q==
-
-"@extscreen/es-tvbc-player-view-component@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-tvbc-player-view-component/-/es-tvbc-player-view-component-1.0.4.tgz#4be544f1eea74b9ccc0a9b377e67cf760f980f83"
-  integrity sha512-IQkW2M967P821MPu7LX33rhrJ/GVM6CRP4Vda2w98qMURwJJL42ir6uDaRVf8Sn/OHUbcolE9CW6kQOLi29Fdg==
-
-"@extscreen/es-tvbc-player@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-tvbc-player/-/es-tvbc-player-1.0.4.tgz#bb6117027927e38cdd401fcdb806023c9f2d111d"
-  integrity sha512-eE9c3Dxy589A1VToQjdSw/A8WOiwEb2ilpbuelCJdp6khRToYXFvEmhWEfA+JRsR4przf6D2ikXRlv4W5uSOeQ==
-
-"@extscreen/es-upload-module@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-upload-module/-/es-upload-module-1.0.0.tgz#1f848b7e4b0ef879dd3ad05ea451d85bf9b7d602"
-  integrity sha512-awEXI26aDH060kPposCVmlHIiCth+wmDpX0u3UhWKWTKMInrX9boUZSulz2b7d7KKMhaZoR4gnBwfmmhUZlFaw==
-
-"@extscreen/es-web-view-component@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-web-view-component/-/es-web-view-component-1.0.2.tgz#7f949096e6d123d0370971a67c3df833d251e547"
-  integrity sha512-ppuMf2bEn75JpfWHSBXf2Fqk5IuY5s74Jc1GT4UmNhUDXIyzc88i/O2ahL9jHMnpLwUpByHYOzWUQQvgNqZFNg==
-
-"@extscreen/es-web-view@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-web-view/-/es-web-view-1.0.1.tgz#cba872111fddb4979d19aaf4226a0c4bcba2d7a2"
-  integrity sha512-KucSBmdzZwggF+TOW2IuWm1OtQl51OOidvfFBhlZrwUBWe/6FNdWT07cGuk1maA2TTD1zvmiHOwQk4ukPx3cgQ==
-
-"@extscreen/es-x5web-view-component@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-x5web-view-component/-/es-x5web-view-component-1.0.2.tgz#353bc8573a66f41a707697ca9294f93e9eb1af22"
-  integrity sha512-C+4P0XR5JKnS2Mphj+wZxNmt2xEOZbCZ7aKZS+0Yyp9LY3m29VjGH1y9BX/WXO2+YXCKM/eLclBa81JZkJ9SkQ==
-
-"@extscreen/es-x5web-view@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-x5web-view/-/es-x5web-view-1.0.1.tgz#809919cf40a1524e50098dffe40e779e13be21b2"
-  integrity sha512-s+jYQtU1aILFB18CKZfEVG2QPdURqE+jzWGS7xdtgidT7hEAqj4Dv/hFVEXiHgW6L3+I215Q8odV6PkdqTj7ew==
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1148,11 +1043,6 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@huantv/vue-native-components/-/vue-native-components-1.1.0.tgz#85cf7a7e5cb0d0de389d8ed0874df5ffa25cc308"
   integrity sha512-+UqwhKVMSf/pTgb3+t2PJTsgaf0tCqwgImNfp+SJkZA1kbCb3tVwguvkYzddo7YvHQ7GlQrzQZOhtY6+ekZLOA==
-
-"@huantv/vue-router@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@huantv/vue-router/-/vue-router-1.1.0.tgz#62f0060ba48f64dc9830fc7717988a3a9e71078c"
-  integrity sha512-UKWek1VlKajAaPbxm9fGne7A/ipei2y+36uG7ckvSDMPpJiYep6+3mlvuhalQfPwTNopT6VpNt6hpMRpcDlCpQ==
 
 "@huantv/vue@1.1.6":
   version "1.1.6"
@@ -9850,11 +9740,6 @@ vue-loader@^15.9.2, vue-loader@^15.9.6:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-router@^3.1.3:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.4.tgz#c453c0b36bc75554de066fefc3f2a9c3212aca70"
-  integrity sha512-x+/DLAJZv2mcQ7glH2oV9ze8uPwcI+H+GgTgTmb5I55bCgY3+vXWIsqbYUzbBSZnwFHEJku4eoaH/x98veyymQ==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"

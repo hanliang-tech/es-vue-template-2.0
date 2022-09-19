@@ -1,11 +1,13 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
-import HippyVueNativeComponents from '@huantv/vue-native-components';
-import App from './App.vue';
-import routes from './routes';
-import {setESApp} from "@extscreen/es-core";
 
-//--------------------------COMPONENT-------------------------------------
+Vue.config.productionTip = false;
+
+//-------------------Native Component---------------------
+import HippyVueNativeComponents from '@huantv/vue-native-components';
+
+Vue.use(HippyVueNativeComponents);
+
+//-------------------Base Component---------------------
 import {
   ESProgressBarViewComponent,
   ESSeekBarViewComponent,
@@ -14,20 +16,32 @@ import {
   ESQRCodeViewComponent,
 } from "@extscreen/es-core";
 
-
-Vue.config.productionTip = false;
-//
-Vue.use(HippyVueNativeComponents);
-Vue.use(VueRouter);
-
-//基础组件
 Vue.use(ESAnimationViewComponent)
 Vue.use(ESLoadingViewComponent)
 Vue.use(ESProgressBarViewComponent)
 Vue.use(ESSeekBarViewComponent)
 Vue.use(ESQRCodeViewComponent)
 
+
+//-------------------Config ESRouter---------------------
+import VueRouter from "@extscreen/es-router";
+import routes from './routes';
+
+Vue.use(VueRouter);
 const router = new VueRouter(routes);
+
+import {
+  ESPageRootViewComponent,
+  ESPageRouterViewComponent,
+} from "@extscreen/es-core";
+
+//
+Vue.use(ESPageRootViewComponent)
+Vue.use(ESPageRouterViewComponent)
+
+
+//-------------------New Application---------------------
+import App from './App.vue';
 
 const app = new Vue({
   appName: 'EsApp',
@@ -39,6 +53,7 @@ const app = new Vue({
 //勿删
 app.$start(() => {
 });
+//-------------------Set ESApp Instance---------------------
+import {setESApp} from "@extscreen/es-core";
 
-//ESCore
 setESApp(app);
