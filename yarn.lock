@@ -952,20 +952,20 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@extscreen/es-core@^1.1.28":
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.1.28.tgz#3baef1a57f73d0d1c99d3f51df47996d6210e0da"
-  integrity sha512-kR89kj9IN8a88ZmBjpX18HGu9M2l1zCv9p7lnxc9p15E4FLlfhFD44xWv38rwz8dyaqqQrMCdYfiAblS5l01GA==
+"@extscreen/es-core@^1.1.36":
+  version "1.1.36"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.1.36.tgz#81a9783b70334306a84c8172f77d1d620c71601f"
+  integrity sha512-Y3pTtmIkZI5sBO87JlaCgsCjyFU5F8kpkaOEMOVOqznFT8lO+qJ/m5dvJvV5WHxEW0G2v5Oc/9cgv9TKzSi15A==
 
 "@extscreen/es-eventbus@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@extscreen/es-eventbus/-/es-eventbus-1.0.0.tgz#f0a8ad11c8577f4633774d371c83fd7a4c4de5dd"
   integrity sha512-le53CXB9owGLnZjcvQUOK9vAMjQML7mjXuANXyo1y8nV0p7El7DDfkmz2kp9Lpjmhs6IvsZQ4CEFqlwd9HgYXA==
 
-"@extscreen/es-log@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-1.0.2.tgz#cf4d654cb26bdc0a1882de515e1b5985906c7167"
-  integrity sha512-lj1rEymcJXKO1dmzbTv3+O0W6lC1Rc8MArUKnsCc6/MEELHrhY5hTr9rZAfF9uCz8oTQXeMEyk3Cpew1+X0BTg==
+"@extscreen/es-log@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-2.0.0.tgz#20d9765c37a8923a55d0e77a6edcc4662f1da319"
+  integrity sha512-vIIvKXXS3cnj+uEiPa1EP1ac/EvljqA1Y9llT1v3HPs7eYDDZK3fnHWig6vcZrfSSypMXAjTCG4YV0w/3b337Q==
 
 "@extscreen/es-router@^1.0.6":
   version "1.0.6"
