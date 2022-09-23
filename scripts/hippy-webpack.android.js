@@ -134,7 +134,7 @@ module.exports = {
     alias: {
       vue: '@huantv/vue',
       '@': path.resolve('./src'),
-      'vue-router': '@huantv/vue-router',
+      'vue-router': '@extscreen/es-router',
     },
   },
 };

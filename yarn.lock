@@ -952,10 +952,10 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@extscreen/es-core@^1.1.27":
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.1.27.tgz#a06d097d898a773560c2d12cc06cecfc2565e4af"
-  integrity sha512-1hsQPDNahCMu4agqIgaOcnJbQHYTaUls9mM+QNrOkOZWp4QRMQhrVS84ZGaB7P9W7mocMqck9clZMaSJYf6tWA==
+"@extscreen/es-core@^1.1.28":
+  version "1.1.28"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-1.1.28.tgz#3baef1a57f73d0d1c99d3f51df47996d6210e0da"
+  integrity sha512-kR89kj9IN8a88ZmBjpX18HGu9M2l1zCv9p7lnxc9p15E4FLlfhFD44xWv38rwz8dyaqqQrMCdYfiAblS5l01GA==
 
 "@extscreen/es-eventbus@^1.0.0":
   version "1.0.0"
@@ -967,10 +967,10 @@
   resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-1.0.2.tgz#cf4d654cb26bdc0a1882de515e1b5985906c7167"
   integrity sha512-lj1rEymcJXKO1dmzbTv3+O0W6lC1Rc8MArUKnsCc6/MEELHrhY5hTr9rZAfF9uCz8oTQXeMEyk3Cpew1+X0BTg==
 
-"@extscreen/es-router@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-1.0.5.tgz#c2660948274f65670e5af9b827151bb73b6707b7"
-  integrity sha512-jRE6oQUwGTlCI8LmA6gd2Ec5vcw5aa+uK/e1SMSQrhFX9Hv7U8vDyK07MhQx4tkD29adLjUXDVfxDRLjmAHSsA==
+"@extscreen/es-router@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-1.0.6.tgz#f5c5ded5fbd0ff8470b874950e88a077ccbb662e"
+  integrity sha512-uUtuZ7tn8L5h8He6rGgRZH6ONd+B5DO9srvv4lSgW9YU7i38EGWES9OyjGqpPgnj/zwKFWxHCUNBaDZemavuvQ==
 
 "@extscreen/es-runtime@^1.0.0":
   version "1.0.0"

@@ -67,7 +67,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       vue: '@huantv/vue',
-      'vue-router': '@huantv/vue-router',
+      'vue-router': '@extscreen/es-router',
     },
   },
 };

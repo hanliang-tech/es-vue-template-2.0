@@ -122,7 +122,7 @@ module.exports = {
       const aliases = {
         vue: '@huantv/vue',
         '@': path.resolve('./src'),
-        'vue-router': '@huantv/vue-router',
+        'vue-router': '@extscreen/es-router',
       };
 
       // If hippy-vue was built exist in packages directory then make a alias

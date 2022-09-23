@@ -68,7 +68,7 @@ module.exports = {
     modules: [path.resolve(__dirname, '../node_modules')],
     alias: {
       vue: '@huantv/vue',
-      'vue-router': '@huantv/vue-router',
+      'vue-router': '@extscreen/es-router',
     },
   },
 };

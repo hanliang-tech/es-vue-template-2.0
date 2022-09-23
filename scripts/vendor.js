@@ -1,3 +1,3 @@
 require('@huantv/vue');
-require('@huantv/vue-router');
+require('@extscreen/es-router');
 require('@huantv/vue-native-components');
