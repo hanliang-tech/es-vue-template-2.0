@@ -24,11 +24,11 @@ Vue.use(ESQRCodeViewComponent)
 
 
 //-------------------Config ESRouter---------------------
-import VueRouter from "@extscreen/es-router";
+import ESRouter from "@extscreen/es-router";
 import routes from './routes';
 
-Vue.use(VueRouter);
-const router = new VueRouter(routes);
+Vue.use(ESRouter);
+const router = new ESRouter(routes);
 
 import {
   ESPageRootViewComponent,

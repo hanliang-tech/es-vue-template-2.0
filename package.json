@@ -28,9 +28,9 @@
     "postcss": "^8.4.14",
     "rollup-plugin-commonjs": "^10.1.0",
     "vue": "^2.6.10",
-    "@extscreen/es-router": "^1.0.26",
+    "@extscreen/es-router": "^2.0.1",
     "@extscreen/es-log": "^2.0.0",
-    "@extscreen/es-core": "^2.2.15",
+    "@extscreen/es-core": "^2.2.22",
     "@extscreen/es-runtime": "^1.0.0",
     "@extscreen/es-eventbus": "^1.0.0"
   },
