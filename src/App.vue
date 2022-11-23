@@ -34,12 +34,7 @@ export default {
     onESCreate(props) {
       this.initLog();
       return Promise.resolve()
-        .then(() => Promise.all([
-          RuntimeDeviceManager.init(),
-          ESDevelopManager.init(),
-          ESDeviceManager.init(),
-          ESNetworkManager.init(),
-        ]))
+        .then(() => RuntimeDeviceManager.init())
         .then(() => RequestManager.init())
     },
     /**
