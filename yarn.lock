@@ -952,27 +952,27 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@extscreen/es-core@^2.2.30":
-  version "2.2.30"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-2.2.30.tgz#d0acdfa86c0030ee56c93d1e6fd56ebc409a88b3"
-  integrity sha512-+lTKvXF1CH7JTg9HEz3RPbXOQWp3FVMaGzWKql4PZ92WOIbOmLhlIH0ktsVJ9g5r9jBql//qt+wh0HwzHH01JQ==
+"@extscreen/es-core@2.2.41":
+  version "2.2.41"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-2.2.41.tgz#061eeda6323714e7d1a0ad96b1722b4be437bbb0"
+  integrity sha512-XKGewD2Qv6FXkpLJwoT/0wJs0nuuXjhrHmxmsULNRCy0NuRQr1xZ1fEZR29M3fTvAk96u+2PAxup3z3gi8410Q==
 
-"@extscreen/es-eventbus@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-eventbus/-/es-eventbus-1.0.0.tgz#f0a8ad11c8577f4633774d371c83fd7a4c4de5dd"
-  integrity sha512-le53CXB9owGLnZjcvQUOK9vAMjQML7mjXuANXyo1y8nV0p7El7DDfkmz2kp9Lpjmhs6IvsZQ4CEFqlwd9HgYXA==
+"@extscreen/es-eventbus@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-eventbus/-/es-eventbus-2.0.1.tgz#6921b2e1fb09e9facc66e64a34167e6135fb2f5e"
+  integrity sha512-wdDGKe47ce1I2kCYcoRKYKc+/PNxsdC8m7LE3iefHO77Bru3WZ2AhWBSaJFbQq2qlrqPt/1H5Q7IK+eebhc+Zw==
 
-"@extscreen/es-log@^2.0.0":
+"@extscreen/es-log@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-2.0.0.tgz#20d9765c37a8923a55d0e77a6edcc4662f1da319"
   integrity sha512-vIIvKXXS3cnj+uEiPa1EP1ac/EvljqA1Y9llT1v3HPs7eYDDZK3fnHWig6vcZrfSSypMXAjTCG4YV0w/3b337Q==
 
-"@extscreen/es-router@^2.0.2":
+"@extscreen/es-router@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-2.0.2.tgz#5a3ae25326e9c74baa3266ce6c682776306c7f5d"
   integrity sha512-GyKti/naBsUxs62p6lSvhIuqzlSHA43fMU3WSm+3TpCejUi8XCURgy439XyqyruzMsgP0sf7qnfDJEeOE3Gppg==
 
-"@extscreen/es-runtime@^1.0.0":
+"@extscreen/es-runtime@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@extscreen/es-runtime/-/es-runtime-1.0.0.tgz#87a04f5f7f9c20a2a469ed3c5b50691181e37d50"
   integrity sha512-zvmqER9Evt9lYOEPw2gbu4T7UcLZJKTRgCs0eU1DZd5iKPeg5ROIX6SaEE7ehquWKGGZQQmgZkyZyMhBGgVskQ==
