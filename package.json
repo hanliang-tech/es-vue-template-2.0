@@ -30,7 +30,7 @@
     "vue": "^2.6.10",
     "@extscreen/es-router": "2.0.2",
     "@extscreen/es-log": "2.0.0",
-    "@extscreen/es-core": "2.2.41",
+    "@extscreen/es-core": "2.2.49",
     "@extscreen/es-runtime": "1.0.0"
   },
   "devDependencies": {
