@@ -9,7 +9,7 @@
   "nativeMain": "./src/main-native.js",
   "scripts": {
     "lint": "vue-cli-service lint",
-    "debug": "node ./es-debug-server/index.js",
+    "debug": "extscreen-debug",
     "dev": "webpack --config ./scripts/dev.js",
     "vendor": "webpack  --config ./scripts/android-vendor.js",
     "esbuild": "webpack --config ./scripts/hippy-webpack.android.js"
@@ -31,7 +31,8 @@
     "@extscreen/es-router": "2.0.2",
     "@extscreen/es-log": "2.2.0",
     "@extscreen/es-core": "2.2.63",
-    "@extscreen/es-runtime": "1.0.0"
+    "@extscreen/es-runtime": "1.0.0",
+    "@extscreen/es-debug-server": "^1.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.12.0",

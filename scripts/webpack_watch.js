@@ -1,4 +1,4 @@
-const { exec } = require("../es-debug-server/utils");
+const { exec } = require("./utils");
 
 class WebpackLifeWatchPlugin{
     constructor(options){
