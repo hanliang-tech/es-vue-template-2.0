@@ -952,20 +952,20 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@extscreen/es-core@2.2.63":
-  version "2.2.63"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-2.2.63.tgz#973172bd220b3604c9ed03fccf0bd8923dec8abb"
-  integrity sha512-iBVliRWtJWicXZa6FVBGp6Lv0mOY+g+p1lG0XPKHG54G7fKxiVyoL1LIGN46Vr9sSHyuGJJFY4M2jUgN06PKuA==
+"@extscreen/es-core@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-core/-/es-core-3.0.1.tgz#8eb7741ae7163524425c5487ccce6a67e0b83357"
+  integrity sha512-e3EybSE0RSCBuifxqjMSYHjRsM7yMORMZMfd6jRLNRGlJhinmHET5fosuGpIntk/MYNzXt6M+uIJWA5UYavB3w==
 
-"@extscreen/es-log@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-2.2.0.tgz#c75b66c4a567d2974537fbbc3e7295b60613c645"
-  integrity sha512-YBUnMUTUhvMGT9nyjlMLkCJkgUbHiVxe9NyrZcxPX8tx5Bw7cX8GeazyBSo7hgsT/UB0aAjL7g3vy/9wyh3/Ag==
+"@extscreen/es-log@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-log/-/es-log-3.0.0.tgz#1392084b840400bc162a7117deb0d90a147ef3ef"
+  integrity sha512-GKqbKzX8PTPopDuush86bITTSk57ghpYTM9i/uszKn5ahuqOKR9m6qXedfpgP7ZI6/H1fnPzrSpfwmhl1YfG3Q==
 
-"@extscreen/es-router@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-2.0.2.tgz#5a3ae25326e9c74baa3266ce6c682776306c7f5d"
-  integrity sha512-GyKti/naBsUxs62p6lSvhIuqzlSHA43fMU3WSm+3TpCejUi8XCURgy439XyqyruzMsgP0sf7qnfDJEeOE3Gppg==
+"@extscreen/es-router@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@extscreen/es-router/-/es-router-3.0.0.tgz#e195e20fd5b048cbbc313f7f488dc119efd8d903"
+  integrity sha512-svYkxfjNtPGuX7s1WIvku4Ahr3+MQhxuwkMrJ0vYmyDLb24ufBxg+xbsGbZteJzAT2Xljle0TZfbtcMqw8AvQQ==
 
 "@extscreen/es-runtime@1.0.0":
   version "1.0.0"
@@ -1033,11 +1033,6 @@
   integrity sha512-h2D97WOcUP+FZrUt2oP1agZLwDxVnu4fXMc4g8uM6tR+9fO3Z39MtHJQ7JTO9UlZIuk83gTewdmFoTFpvH9umw==
   dependencies:
     loader-utils "^1.0.2"
-
-"@huantv/vue-native-components@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@huantv/vue-native-components/-/vue-native-components-1.1.0.tgz#85cf7a7e5cb0d0de389d8ed0874df5ffa25cc308"
-  integrity sha512-+UqwhKVMSf/pTgb3+t2PJTsgaf0tCqwgImNfp+SJkZA1kbCb3tVwguvkYzddo7YvHQ7GlQrzQZOhtY6+ekZLOA==
 
 "@huantv/vue@1.1.6":
   version "1.1.6"
@@ -1112,6 +1107,11 @@
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
+
+"@quicktvui/quicktvui-alpha@1.0.25":
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/@quicktvui/quicktvui-alpha/-/quicktvui-alpha-1.0.25.tgz#5fd009b50008c01841087ecbbd3ba74ae39acf22"
+  integrity sha512-F54e60hV2Il5aJqzaRr/EorAZFspck+EvLDWiXIDlPvkbb8Rev2s+9f7HX8hn04iN/lU64BWIWefyE5tPUZ7YQ==
 
 "@rollup/plugin-babel@^5.3.1":
   version "5.3.1"
