@@ -1,12 +1,45 @@
 import Vue from 'vue';
 
 Vue.config.productionTip = false;
+
+//-------------------Native Component---------------------
+import HippyVueNativeComponents from '@huantv/vue-native-components';
+
+Vue.use(HippyVueNativeComponents);
+
+//-------------------Base Component---------------------
+import {
+  ESProgressBarViewComponent,
+  ESSeekBarViewComponent,
+  ESAnimationViewComponent,
+  ESLoadingViewComponent,
+  ESQRCodeViewComponent,
+} from "@extscreen/es-core";
+
+Vue.use(ESAnimationViewComponent)
+Vue.use(ESLoadingViewComponent)
+Vue.use(ESProgressBarViewComponent)
+Vue.use(ESSeekBarViewComponent)
+Vue.use(ESQRCodeViewComponent)
+
+
 //-------------------Config ESRouter---------------------
 import ESRouter from "@extscreen/es-router";
 import routes from './routes';
 
 Vue.use(ESRouter);
 const router = new ESRouter(routes);
+
+import {
+  ESPageRootViewComponent,
+  ESPageRouterViewComponent,
+} from "@extscreen/es-core";
+
+//
+Vue.use(ESPageRootViewComponent)
+Vue.use(ESPageRouterViewComponent)
+
+
 //-------------------New Application---------------------
 import App from './App.vue';
 
