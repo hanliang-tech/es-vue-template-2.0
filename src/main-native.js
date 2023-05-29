@@ -8,10 +8,10 @@ import routes from './routes';
 
 Vue.use(ESRouter);
 const router = new ESRouter(routes);
-//-------------------Config QuickTVUI---------------------
-import {QuickTVUI} from "@quicktvui/quicktvui-alpha";
+//-------------------Config ESComponent---------------------
+import {ESComponent} from "@extscreen/es-component";
 
-Vue.use(QuickTVUI);
+Vue.use(ESComponent);
 //-------------------New Application---------------------
 import App from './App.vue';
 
@@ -27,5 +27,6 @@ app.$start(() => {
 });
 //-------------------Set ESApp Instance---------------------
 import {setESApp} from "@extscreen/es-core";
+
 
 setESApp(app);
