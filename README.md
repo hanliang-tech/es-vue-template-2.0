@@ -1,5 +1,11 @@
 # es-vue-template-2.0
 
+> !!! 注意此项目使用vue2开发，目前仅用于体验快应用开发，正式开发请查看vue3版本的[quicktvui-api-demo-vue3](https://github.com/quicktvui/quicktvui-api-demo-vue3)
+
+> 另外可以参考开源影视类应用[HelloTV](https://github.com/quicktvui/hellotv)，少量修改代码即可制作自己的大屏影视应用！
+
+> 更多开源项目请查看[quicktvui](https://github.com/orgs/quicktvui/repositories)
+
 扩展屏小程序初始化模板
 
 > extent screen 简称 （ES） 容器可以理解为一个精简版的浏览器，针对TV端特殊的遥控器交互模式，从底层做了大量优化工作，在启动速度、可复用列表组件、渲染效率、动画速度、 网络通信等等都提供了超高的性能表现。提供了接近 Web 的开发体验。目前上层支持了Vue界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生 指令，进行原生终端 App 的开发。
