@@ -10,16 +10,6 @@
     "build": "zx ./scripts/build.cjs"
   },
   "dependencies": {
-    "@rollup/plugin-babel": "^5.3.1",
-    "@rollup/plugin-buble": "^0.21.3",
-    "@rollup/plugin-commonjs": "^22.0.0",
-    "@rollup/plugin-image": "^2.1.1",
-    "@vue/compiler-sfc": "^3.2.37",
-    "autoprefixer": "^10.4.7",
-    "core-js": "^3.4.3",
-    "moment": "^2.29.1",
-    "postcss": "^8.4.14",
-    "rollup-plugin-commonjs": "^10.1.0",
     "vue": "^2.6.10",
     "@huantv/vue": "1.1.9",
     "@huantv/vue-native-components": "1.1.0",
@@ -30,6 +20,14 @@
     "@extscreen/es-runtime": "2.1.7"
   },
   "devDependencies": {
+    "core-js": "^3.4.3",
+    "postcss": "^8.4.14",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-image": "^2.1.1",
+    "@vue/compiler-sfc": "^3.2.37",
+    "autoprefixer": "^10.4.7",
     "@babel/core": "^7.12.0",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-decorators": "^7.10.5",
