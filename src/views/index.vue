@@ -1,5 +1,7 @@
 <template>
   <div class="index-root-view-css">
+    <img class="index-root-img-css"
+         :src="require('../assets/logo.png')">
     <span class="index-root-text-view-css">{{ text }}</span>
   </div>
 </template>
@@ -13,7 +15,7 @@ export default {
   mixins: [ESPage],
   data() {
     return {
-      text: 'Hello World!'
+      text: 'Quick TV UI'
     };
   },
   methods: {
@@ -35,6 +37,12 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.index-root-img-css{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 .index-root-text-view-css {
